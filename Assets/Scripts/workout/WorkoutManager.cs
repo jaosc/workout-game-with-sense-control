@@ -18,7 +18,7 @@ public class ScoreModel
 public enum Moviment {
     IDLE,
     JUMP,
-    CROSS_JUMP,
+    SWING,
     BREAK,
 }
 

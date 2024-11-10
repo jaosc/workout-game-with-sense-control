@@ -29,10 +29,10 @@ public class AthleteController : MonoBehaviour
             
             }
 
-            if(movimentPrediction == "cross-jumping"){
+            if(movimentPrediction == "swing"){
 
-                mAnimator.SetTrigger("cross-jumping");
-                mCurrentMoviment = Moviment.CROSS_JUMP;
+                mAnimator.SetTrigger("swing");
+                mCurrentMoviment = Moviment.SWING;
             
             }
 

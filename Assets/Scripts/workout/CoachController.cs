@@ -21,8 +21,8 @@ public class CoachController : MonoBehaviour
             case Moviment.JUMP:
                 mAnimator.SetTrigger("jumping");
                 break;
-            case Moviment.CROSS_JUMP:
-                mAnimator.SetTrigger("cross-jumping");
+            case Moviment.SWING:
+                mAnimator.SetTrigger("swing");
                 break;
             case Moviment.BREAK:
                 mAnimator.SetTrigger("breaking");
